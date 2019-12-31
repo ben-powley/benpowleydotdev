@@ -5,28 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.1/css/foundation.min.css">
     <title>Ben Powley</title>
 </head>
 <style>
-    html,
     body {
-        width: 100vw;
         height: 100vh;
-        overflow: hidden;
-    }
-
-    body {
+        background: #3C91E6;
+        color: #FAFFFD;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: sans-serif;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
     }
 
     h1 {
-        font-size: 16rem;
+        font-size: 2rem;
+    }
+
+    @media screen and (min-width: 1024px) {
+        h1 {
+            font-size: 18rem;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        h1 {
+            font-size: 10rem;
+        }
+    }
+
+    @media screen and (min-width: 320px) {
+        h1 {
+            font-size: 5rem;
+        }
     }
 </style>
 
